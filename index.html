@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="calculator">
+        <input type="text" id="display">
+        <div class="btns">
+            <button class="btns" onclick="appToDisplay('+')">+</button>
+            <button onclick="appToDisplay('9')">9</button>
+            <button onclick="appToDisplay('8')">8</button>
+            <button onclick="appToDisplay('7')">7</button>
+            <button class="btns" onclick="appToDisplay('-')">-</button>
+            <button onclick="appToDisplay('6')">6</button>
+            <button onclick="appToDisplay('5')">5</button>
+            <button onclick="appToDisplay('4')">4</button>
+            <button class="btns" onclick="appToDisplay('*')">*</button>
+            <button onclick="appToDisplay('3')">3</button>
+            <button onclick="appToDisplay('2')">2</button>
+            <button onclick="appToDisplay('1')">1</button>
+            <button class="btns" onclick="appToDisplay('/')">/</button>
+            <button onclick="appToDisplay('.')">.</button>
+            <button onclick="appToDisplay('0')">0</button>
+            <button onclick="calculator()">=</button>
+            <button class="btns" onclick="del">del</button>
+            <button class="btns" onclick="clr()">clr</button>
+
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
