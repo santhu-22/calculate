@@ -13,5 +13,5 @@ function clr() {
     display.value = "";
 }
 function del() {
-    display.value -= input;
+    display.value = display.value.slice(0, display.value.length - 1);
 }
